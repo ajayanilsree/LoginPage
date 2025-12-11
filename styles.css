@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: seagreen;
+}
+.wrapper{
+    width: 420px;
+    background-color: purple;
+    color: white;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    background-color: yellow;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
